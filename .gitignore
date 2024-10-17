@@ -62,7 +62,7 @@ typings/
 
 .cache
 **/.cache
-public
+public/
 !public/page-data/
 !public/page-data/sq/
 !public/page-data/sq/d/
