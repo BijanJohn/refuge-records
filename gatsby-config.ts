@@ -8,11 +8,11 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-emilia-core/gatsby-config.mjs
-    siteTitle: `RefugeRecords`,
-    siteTitleAlt: `RefugeRecords`,
-    siteHeadline: `RefugeRecords`,
-    siteUrl: `https://refugerecovery.com`,
-    siteDescription: `Refuge Records Website of Records for Sale.`,
+    siteTitle: `RecordRefuge`,
+    siteTitleAlt: `RecordRefuge`,
+    siteHeadline: `RecordRefuge`,
+    siteUrl: `https://recordrefuge.com`,
+    siteDescription: `Record Refuge Website of Records for Sale.`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
     author: `@bijanrahnamai`,

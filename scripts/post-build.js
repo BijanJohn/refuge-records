@@ -6,7 +6,7 @@ const filePath = path.join(__dirname, '../public/page-data/sq/d/1181966677.json'
 const fileContent = {
     data: {
       emiliaConfig: {
-        name: "RefugeRecords",
+        name: "RecordRefuge",
         location: "Austin",
         socialMedia: [
           {

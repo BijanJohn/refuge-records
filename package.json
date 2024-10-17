@@ -3,7 +3,7 @@
   "name": "emilia",
   "description": "Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI. Includes Light/Dark mode.",
   "version": "0.3.15",
-  "author": "RefugeRecords",
+  "author": "RecordRefuge",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-emilia",
   "scripts": {
