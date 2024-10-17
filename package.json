@@ -3,7 +3,7 @@
   "name": "emilia",
   "description": "Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI. Includes Light/Dark mode.",
   "version": "0.3.15",
-  "author": "LekoArts",
+  "author": "RefugeRecords",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-emilia",
   "scripts": {
@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-emilia": "^5.1.4",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
     "gatsby": "^5.13.6",
     "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-sitemap": "^6.13.1",
