@@ -30,7 +30,12 @@ if (!fs.existsSync(dirPath)) {
   fs.mkdirSync(dirPath, { recursive: true });
 }
 
-// Write the file
-fs.writeFileSync(filePath, fileContent, 'utf8');
+// Convert the content to a JSON string
+const jsonString = JSON.stringify(fileContent, null, 2);
+
+
+// Write the file (ensuring it is a string)
+fs.writeFileSync(filePath, jsonString, 'utf8');
 
 console.log(`File ${filePath} has been created/updated.`);
+
