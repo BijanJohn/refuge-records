@@ -1,0 +1,3 @@
+[build]
+  command = "gatsby build && node scripts/post-build.js"
+  publish = "public"
