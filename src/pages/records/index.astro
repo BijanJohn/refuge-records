@@ -1,22 +1,210 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import RecordGrid from '../../components/RecordGrid.astro';
+import RecordCard from '../../components/RecordCard.astro';
 import { getAvailableRecords } from '../../lib/inventory';
 
 const records = getAvailableRecords();
+
+// Get unique conditions for filter dropdown
+const conditions = [...new Set(records.map(r => r.condition))].sort();
 ---
 
 <BaseLayout title="Records" description="Browse all available vinyl records for sale.">
+  <!-- Support Local Banner -->
+  <section class="bg-gray-900 py-4">
+    <div class="container">
+      <p class="text-center text-sm text-white">
+        <span class="font-semibold">Support a local business</span> &mdash;
+        Purchasing here helps avoid exorbitant Discogs fees.
+      </p>
+    </div>
+  </section>
+
   <section class="py-12">
     <div class="container">
       <div class="mb-8">
         <h1 class="text-3xl font-bold text-gray-900">All Records</h1>
         <p class="mt-2 text-gray-600">
-          {records.length} record{records.length !== 1 ? 's' : ''} available
+          <span id="record-count">{records.length}</span> record{records.length !== 1 ? 's' : ''} available
         </p>
       </div>
 
-      <RecordGrid records={records} />
+      <!-- Filters -->
+      <div class="mb-8 rounded-lg border border-gray-200 bg-white p-4">
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <!-- Search -->
+          <div>
+            <label for="search" class="block text-sm font-medium text-gray-700">Search</label>
+            <input
+              type="text"
+              id="search"
+              placeholder="Artist or title..."
+              class="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:border-gray-500 focus:outline-none focus:ring-1 focus:ring-gray-500"
+            />
+          </div>
+
+          <!-- Condition Filter -->
+          <div>
+            <label for="condition" class="block text-sm font-medium text-gray-700">Condition</label>
+            <select
+              id="condition"
+              class="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:border-gray-500 focus:outline-none focus:ring-1 focus:ring-gray-500"
+            >
+              <option value="">All conditions</option>
+              {conditions.map((condition) => (
+                <option value={condition}>{condition}</option>
+              ))}
+            </select>
+          </div>
+
+          <!-- Sort -->
+          <div>
+            <label for="sort" class="block text-sm font-medium text-gray-700">Sort by</label>
+            <select
+              id="sort"
+              class="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:border-gray-500 focus:outline-none focus:ring-1 focus:ring-gray-500"
+            >
+              <option value="newest">Newest first</option>
+              <option value="oldest">Oldest first</option>
+              <option value="price-low">Price: Low to High</option>
+              <option value="price-high">Price: High to Low</option>
+              <option value="artist">Artist A-Z</option>
+            </select>
+          </div>
+
+          <!-- Clear Filters -->
+          <div class="flex items-end">
+            <button
+              id="clear-filters"
+              class="btn-secondary w-full text-sm"
+            >
+              Clear Filters
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Records Grid -->
+      <div id="records-grid" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {records.map((record) => (
+          <div
+            class="record-item"
+            data-artist={record.artist.toLowerCase()}
+            data-title={record.title.toLowerCase()}
+            data-condition={record.condition}
+            data-price={record.price}
+            data-date={record.listed_at || ''}
+          >
+            <RecordCard record={record} />
+          </div>
+        ))}
+      </div>
+
+      <!-- No Results Message -->
+      <div id="no-results" class="hidden py-12 text-center">
+        <p class="text-gray-600">No records match your filters.</p>
+        <button id="clear-filters-alt" class="mt-4 text-sm font-medium text-gray-900 underline">
+          Clear filters
+        </button>
+      </div>
     </div>
   </section>
 </BaseLayout>
+
+<script>
+  const searchInput = document.getElementById('search') as HTMLInputElement;
+  const conditionSelect = document.getElementById('condition') as HTMLSelectElement;
+  const sortSelect = document.getElementById('sort') as HTMLSelectElement;
+  const clearBtn = document.getElementById('clear-filters');
+  const clearBtnAlt = document.getElementById('clear-filters-alt');
+  const recordsGrid = document.getElementById('records-grid');
+  const noResults = document.getElementById('no-results');
+  const recordCount = document.getElementById('record-count');
+
+  const recordItems = Array.from(document.querySelectorAll('.record-item')) as HTMLElement[];
+
+  function filterAndSort() {
+    const searchTerm = searchInput.value.toLowerCase().trim();
+    const selectedCondition = conditionSelect.value;
+    const sortBy = sortSelect.value;
+
+    // Filter
+    let visibleItems = recordItems.filter((item) => {
+      const artist = item.dataset.artist || '';
+      const title = item.dataset.title || '';
+      const condition = item.dataset.condition || '';
+
+      const matchesSearch = !searchTerm ||
+        artist.includes(searchTerm) ||
+        title.includes(searchTerm);
+      const matchesCondition = !selectedCondition || condition === selectedCondition;
+
+      return matchesSearch && matchesCondition;
+    });
+
+    // Sort
+    visibleItems.sort((a, b) => {
+      const priceA = parseFloat(a.dataset.price || '0');
+      const priceB = parseFloat(b.dataset.price || '0');
+      const dateA = a.dataset.date || '';
+      const dateB = b.dataset.date || '';
+      const artistA = a.dataset.artist || '';
+      const artistB = b.dataset.artist || '';
+
+      switch (sortBy) {
+        case 'price-low':
+          return priceA - priceB;
+        case 'price-high':
+          return priceB - priceA;
+        case 'oldest':
+          return dateA.localeCompare(dateB);
+        case 'newest':
+          return dateB.localeCompare(dateA);
+        case 'artist':
+          return artistA.localeCompare(artistB);
+        default:
+          return 0;
+      }
+    });
+
+    // Update DOM
+    recordItems.forEach((item) => {
+      item.style.display = 'none';
+    });
+
+    visibleItems.forEach((item) => {
+      item.style.display = 'block';
+      recordsGrid?.appendChild(item);
+    });
+
+    // Update count and no results message
+    if (recordCount) {
+      recordCount.textContent = visibleItems.length.toString();
+    }
+
+    if (visibleItems.length === 0) {
+      noResults?.classList.remove('hidden');
+      recordsGrid?.classList.add('hidden');
+    } else {
+      noResults?.classList.add('hidden');
+      recordsGrid?.classList.remove('hidden');
+    }
+  }
+
+  function clearFilters() {
+    searchInput.value = '';
+    conditionSelect.value = '';
+    sortSelect.value = 'newest';
+    filterAndSort();
+  }
+
+  // Event listeners
+  searchInput?.addEventListener('input', filterAndSort);
+  conditionSelect?.addEventListener('change', filterAndSort);
+  sortSelect?.addEventListener('change', filterAndSort);
+  clearBtn?.addEventListener('click', clearFilters);
+  clearBtnAlt?.addEventListener('click', clearFilters);
+
+  // Initial sort
+  filterAndSort();
+</script>
