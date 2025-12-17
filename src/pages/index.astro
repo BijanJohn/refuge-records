@@ -7,22 +7,41 @@ const featuredRecords = getFeaturedRecords(8);
 ---
 
 <BaseLayout title="Home" description="Curated vinyl records for sale. Quality records at fair prices.">
-  <!-- Hero Section -->
+  <!-- Hero Section with Photo -->
   <section class="bg-gray-50 py-16 sm:py-24">
     <div class="container">
-      <div class="mx-auto max-w-2xl text-center">
-        <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-          Record Refuge
-        </h1>
-        <p class="mt-4 text-lg text-gray-600">
-          Curated vinyl records from a personal collection. Quality pressings, fair prices, careful shipping.
-        </p>
-        <div class="mt-8">
-          <a href="/records" class="btn-primary">
-            Browse Records
-          </a>
+      <div class="grid gap-12 lg:grid-cols-2 lg:items-center">
+        <div>
+          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+            Record Refuge
+          </h1>
+          <p class="mt-4 text-lg text-gray-600">
+            Curated vinyl records from a personal collection. Quality pressings, fair prices, careful shipping.
+          </p>
+          <div class="mt-8">
+            <a href="/records" class="btn-primary">
+              Browse Records
+            </a>
+          </div>
+        </div>
+        <div class="relative">
+          <img
+            src="/jeremy-records.jpg"
+            alt="Record collection"
+            class="rounded-lg shadow-lg"
+          />
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Support Local Banner -->
+  <section class="bg-gray-900 py-6">
+    <div class="container">
+      <p class="text-center text-white">
+        <span class="font-semibold">Support a local business</span> &mdash;
+        Purchasing from this site helps avoid exorbitant fees from Discogs and keeps more money where it belongs.
+      </p>
     </div>
   </section>
 
