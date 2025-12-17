@@ -1,0 +1,33 @@
+---
+const currentYear = new Date().getFullYear();
+
+const socialLinks = [
+  { href: 'https://www.instagram.com/lindseyjeremys/', label: 'Instagram' },
+  { href: 'https://www.discogs.com/user/jeremyslindsey', label: 'Discogs' },
+];
+---
+
+<footer class="border-t border-gray-100 bg-white">
+  <div class="container py-8">
+    <div class="flex flex-col items-center justify-between gap-4 sm:flex-row">
+      <p class="text-sm text-gray-600">
+        &copy; {currentYear} Record Refuge. All rights reserved.
+      </p>
+
+      <ul class="flex items-center gap-6">
+        {socialLinks.map((link) => (
+          <li>
+            <a
+              href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-sm text-gray-600 transition-colors hover:text-gray-900"
+            >
+              {link.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</footer>

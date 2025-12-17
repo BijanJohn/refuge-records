@@ -1,0 +1,39 @@
+---
+import type { Record } from '../types';
+import { formatPrice, formatCondition } from '../lib/utils';
+
+interface Props {
+  record: Record;
+}
+
+const { record } = Astro.props;
+const imageUrl = record.images?.[0] || '/placeholder-record.jpg';
+---
+
+<article class="group">
+  <a href={`/records/${record.slug}`} class="block">
+    <div class="aspect-square overflow-hidden rounded-lg bg-gray-100">
+      <img
+        src={imageUrl}
+        alt={`${record.artist} - ${record.title}`}
+        class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+        loading="lazy"
+      />
+    </div>
+
+    <div class="mt-4 space-y-1">
+      <h3 class="font-medium text-gray-900 group-hover:underline">
+        {record.title}
+      </h3>
+      <p class="text-sm text-gray-600">{record.artist}</p>
+      <div class="flex items-center justify-between">
+        <span class="font-semibold text-gray-900">
+          {formatPrice(record.price, record.currency)}
+        </span>
+        <span class="text-xs text-gray-500">
+          {formatCondition(record.condition)}
+        </span>
+      </div>
+    </div>
+  </a>
+</article>

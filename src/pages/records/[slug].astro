@@ -1,0 +1,116 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BuyButton from '../../components/BuyButton.astro';
+import { getAvailableRecords, getRecordBySlug } from '../../lib/inventory';
+import { formatPrice, formatCondition } from '../../lib/utils';
+
+export function getStaticPaths() {
+  const records = getAvailableRecords();
+  return records.map((record) => ({
+    params: { slug: record.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const record = getRecordBySlug(slug!);
+
+if (!record) {
+  return Astro.redirect('/404');
+}
+
+const imageUrl = record.images?.[0] || '/placeholder-record.jpg';
+---
+
+<BaseLayout
+  title={`${record.artist} - ${record.title}`}
+  description={`${record.title} by ${record.artist}. ${formatCondition(record.condition)} condition. ${formatPrice(record.price)}`}
+  image={imageUrl}
+>
+  <section class="py-12">
+    <div class="container">
+      <div class="grid gap-12 lg:grid-cols-2">
+        <!-- Image -->
+        <div class="aspect-square overflow-hidden rounded-lg bg-gray-100">
+          <img
+            src={imageUrl}
+            alt={`${record.artist} - ${record.title}`}
+            class="h-full w-full object-cover"
+          />
+        </div>
+
+        <!-- Details -->
+        <div>
+          <nav class="mb-4">
+            <a href="/records" class="text-sm text-gray-600 hover:text-gray-900">
+              &larr; Back to records
+            </a>
+          </nav>
+
+          <h1 class="text-3xl font-bold text-gray-900">{record.title}</h1>
+          <p class="mt-2 text-xl text-gray-600">{record.artist}</p>
+
+          <div class="mt-6">
+            <span class="text-3xl font-bold text-gray-900">
+              {formatPrice(record.price, record.currency)}
+            </span>
+            <span class="ml-2 text-sm text-gray-500">+ $5 shipping</span>
+          </div>
+
+          <dl class="mt-8 space-y-4">
+            <div class="flex justify-between border-b border-gray-100 pb-2">
+              <dt class="text-gray-600">Media Condition</dt>
+              <dd class="font-medium text-gray-900">{formatCondition(record.condition)}</dd>
+            </div>
+            <div class="flex justify-between border-b border-gray-100 pb-2">
+              <dt class="text-gray-600">Sleeve Condition</dt>
+              <dd class="font-medium text-gray-900">{formatCondition(record.sleeve_condition)}</dd>
+            </div>
+            {record.format && (
+              <div class="flex justify-between border-b border-gray-100 pb-2">
+                <dt class="text-gray-600">Format</dt>
+                <dd class="font-medium text-gray-900">{record.format}</dd>
+              </div>
+            )}
+            {record.label && (
+              <div class="flex justify-between border-b border-gray-100 pb-2">
+                <dt class="text-gray-600">Label</dt>
+                <dd class="font-medium text-gray-900">{record.label}</dd>
+              </div>
+            )}
+            {record.year && (
+              <div class="flex justify-between border-b border-gray-100 pb-2">
+                <dt class="text-gray-600">Year</dt>
+                <dd class="font-medium text-gray-900">{record.year}</dd>
+              </div>
+            )}
+          </dl>
+
+          {record.comments && (
+            <div class="mt-8">
+              <h2 class="font-semibold text-gray-900">Seller Notes</h2>
+              <p class="mt-2 text-gray-600">{record.comments}</p>
+            </div>
+          )}
+
+          <div class="mt-8">
+            {record.stripe_price_id ? (
+              <BuyButton
+                priceId={record.stripe_price_id}
+                listingId={record.discogs_listing_id}
+                class="w-full sm:w-auto"
+              />
+            ) : (
+              <p class="text-sm text-gray-500">
+                This item is not yet available for purchase. Please check back later.
+              </p>
+            )}
+          </div>
+
+          <p class="mt-4 text-xs text-gray-400">
+            Discogs Listing ID: {record.discogs_listing_id}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
