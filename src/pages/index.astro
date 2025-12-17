@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import RecordGrid from '../components/RecordGrid.astro';
+import { getFeaturedRecords } from '../lib/inventory';
+
+const featuredRecords = getFeaturedRecords(8);
+---
+
+<BaseLayout title="Home" description="Curated vinyl records for sale. Quality records at fair prices.">
+  <!-- Hero Section -->
+  <section class="bg-gray-50 py-16 sm:py-24">
+    <div class="container">
+      <div class="mx-auto max-w-2xl text-center">
+        <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+          Record Refuge
+        </h1>
+        <p class="mt-4 text-lg text-gray-600">
+          Curated vinyl records from a personal collection. Quality pressings, fair prices, careful shipping.
+        </p>
+        <div class="mt-8">
+          <a href="/records" class="btn-primary">
+            Browse Records
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Records -->
+  <section class="py-16">
+    <div class="container">
+      <div class="mb-8 flex items-center justify-between">
+        <h2 class="text-2xl font-bold text-gray-900">Latest Additions</h2>
+        <a href="/records" class="text-sm font-medium text-gray-600 hover:text-gray-900">
+          View all &rarr;
+        </a>
+      </div>
+
+      <RecordGrid records={featuredRecords} />
+    </div>
+  </section>
+
+  <!-- Info Section -->
+  <section class="border-t border-gray-100 bg-gray-50 py-16">
+    <div class="container">
+      <div class="mx-auto grid max-w-4xl gap-8 sm:grid-cols-3">
+        <div class="text-center">
+          <h3 class="font-semibold text-gray-900">Quality Checked</h3>
+          <p class="mt-2 text-sm text-gray-600">
+            Every record is carefully graded and described accurately.
+          </p>
+        </div>
+        <div class="text-center">
+          <h3 class="font-semibold text-gray-900">Secure Shipping</h3>
+          <p class="mt-2 text-sm text-gray-600">
+            Records are shipped in protective mailers with tracking.
+          </p>
+        </div>
+        <div class="text-center">
+          <h3 class="font-semibold text-gray-900">Fair Prices</h3>
+          <p class="mt-2 text-sm text-gray-600">
+            No marketplace fees means better prices for you.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

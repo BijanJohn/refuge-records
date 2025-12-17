@@ -1,0 +1,23 @@
+---
+import type { Record } from '../types';
+import RecordCard from './RecordCard.astro';
+
+interface Props {
+  records: Record[];
+}
+
+const { records } = Astro.props;
+---
+
+{records.length > 0 ? (
+  <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    {records.map((record) => (
+      <RecordCard record={record} />
+    ))}
+  </div>
+) : (
+  <div class="py-12 text-center">
+    <p class="text-gray-600">No records available at the moment.</p>
+    <p class="mt-2 text-sm text-gray-500">Check back soon for new additions!</p>
+  </div>
+)}

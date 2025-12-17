@@ -1,36 +1,25 @@
 {
-  "private": true,
-  "name": "emilia",
-  "description": "Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI. Includes Light/Dark mode.",
-  "version": "0.3.15",
-  "author": "RecordRefuge",
-  "license": "0BSD",
-  "starter-name": "gatsby-starter-portfolio-emilia",
+  "name": "record-refuge",
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
-    "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
-    "start": "gatsby develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "sync": "tsx scripts/sync-discogs.ts",
+    "astro": "astro"
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-emilia": "^5.1.4",
-    "ajv": "^8.17.1",
-    "ajv-keywords": "^5.1.0",
-    "gatsby": "^5.13.6",
-    "gatsby-plugin-manifest": "^5.13.1",
-    "gatsby-plugin-sitemap": "^6.13.1",
-    "gatsby-plugin-webpack-statoscope": "^1.0.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "astro": "^5.1.1",
+    "dotenv": "^17.2.3",
+    "stripe": "^17.4.0"
   },
   "devDependencies": {
-    "@types/node": "^20.14.10",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "cross-env": "^7.0.3",
-    "typescript": "^5.5.3"
+    "@astrojs/cloudflare": "^12.0.1",
+    "@astrojs/tailwind": "^6.0.2",
+    "@types/node": "^22.10.2",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
   }
 }

@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Order Confirmed" description="Your order has been placed successfully.">
+  <section class="py-24">
+    <div class="container">
+      <div class="mx-auto max-w-md text-center">
+        <div class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-green-100">
+          <svg class="h-8 w-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+          </svg>
+        </div>
+
+        <h1 class="text-2xl font-bold text-gray-900">Thank you for your order!</h1>
+
+        <p class="mt-4 text-gray-600">
+          Your payment was successful and your order is confirmed. You'll receive
+          an email confirmation shortly with tracking information once your record ships.
+        </p>
+
+        <div class="mt-8">
+          <a href="/records" class="btn-primary">
+            Continue Shopping
+          </a>
+        </div>
+
+        <p class="mt-8 text-sm text-gray-500">
+          Questions about your order? Contact us on
+          <a href="https://www.instagram.com/lindseyjeremys/" target="_blank" rel="noopener noreferrer" class="underline">Instagram</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
