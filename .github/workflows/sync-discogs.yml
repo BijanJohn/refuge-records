@@ -6,6 +6,9 @@ on:
     - cron: '0 23 * * *'
   workflow_dispatch: # Allow manual trigger
 
+permissions:
+  contents: write  # Allow pushing commits back to repo
+
 jobs:
   sync:
     runs-on: ubuntu-latest
