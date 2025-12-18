@@ -1,5 +1,5 @@
 {
-  "lastSync": "2025-12-17T00:46:50.704Z",
+  "lastSync": "2025-12-18T02:26:34.139Z",
   "seller": "jeremyslindsey",
   "items": [
     {
@@ -3199,6 +3199,54 @@
       ],
       "status": "available",
       "listed_at": "2025-12-10T09:12:40-08:00"
+    },
+    {
+      "discogs_listing_id": 3955974697,
+      "discogs_release_id": 3051127,
+      "title": "Butthole Surfers",
+      "artist": "Butthole Surfers",
+      "label": "Alternative Tentacles",
+      "catalog_number": "VIRUS 32",
+      "year": 1983,
+      "format": "Vinyl",
+      "price": 49,
+      "currency": "USD",
+      "condition": "Very Good Plus (VG+)",
+      "sleeve_condition": "Very Good Plus (VG+)",
+      "comments": "Stored in plastic outer sleeve, and sleeve city inner. Media has some surface marks, but plays strong (heard one pop during play and some noise between tracks). Front cover looks really nice, and the back is good but has a little light creasing and a 2 inch thin line (next to the head). Little corner wear and crunch as well, but overall very nice (happy to provide pics).",
+      "discogs_url": "https://www.discogs.comhttps://www.discogs.com/sell/item/3955974697",
+      "images": [
+        "https://i.discogs.com/VsFrj2v2aG7N9r_9GavZG64ulsZ4_zIeOO7-Uc-g0CY/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNTEx/MjctMTQ3Mjk1MDQ3/Ni0zNDAxLmpwZWc.jpeg",
+        "https://i.discogs.com/brehXMXBNJMlJiaj1y4-hfg2S1unX7IZtrLPiVuvPEY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNTEx/MjctMTQ3Mjk1MDQ4/My04MTU3LmpwZWc.jpeg",
+        "https://i.discogs.com/sNJnxk7Z8QJodXyvljT6aDhR9pFNp56pgsCtrfImEds/rs:fit/g:sm/q:90/h:99/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNTEx/MjctMTM4MjU5MDQw/OC0xODQzLmpwZWc.jpeg",
+        "https://i.discogs.com/0J5ye4tlSOzozVrqZoLcIftuDVKHJ61z--xF1xrbdys/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNTEx/MjctMTM4MjU5MDQw/Ni03MzM1LmpwZWc.jpeg"
+      ],
+      "status": "available",
+      "listed_at": "2025-12-17T11:41:16-08:00"
+    },
+    {
+      "discogs_listing_id": 3956164030,
+      "discogs_release_id": 237311,
+      "title": "Question In The Form Of An Answer",
+      "artist": "People Under The Stairs",
+      "label": "OM Records",
+      "catalog_number": "OM-036VLP",
+      "year": 2000,
+      "format": "Vinyl",
+      "price": 70,
+      "currency": "USD",
+      "condition": "Very Good (VG)",
+      "sleeve_condition": "Very Good (VG)",
+      "comments": "Stored in plastic outer sleeve, and sleeve city inners. Media has a lot superficial hairs that are seen under bright light. Plays closer to VG+, but knocking this down a bit because of the visual grade (heard very little surface noise - occasional pop mostly in the quiet parts). Sleeve still in shrink, but receding a bit at opening and has a fair amount of corner wear, 2 inch+ seam split at the top &amp; large corner clip (maybe G+, but I think VG is accurate). Great player copy",
+      "discogs_url": "https://www.discogs.comhttps://www.discogs.com/sell/item/3956164030",
+      "images": [
+        "https://i.discogs.com/Ew8csuhN0ZoAIVTub4X6DJcDzqOfCEFiqYPKJculbLY/rs:fit/g:sm/q:90/h:164/w:164/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzNzMx/MS0xMDgyNTcyMTk1/LmpwZw.jpeg",
+        "https://i.discogs.com/ilm4g79A9KXMgoHPOhUnJgMg17qMbuUI3KDrAqESPhE/rs:fit/g:sm/q:90/h:580/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzNzMx/MS0xNTQzNTE4OTU0/LTQ2NjcuanBlZw.jpeg",
+        "https://i.discogs.com/unrMtt6-nxtoDA6EP3GUazypfswWBd8zCz-UgDqHrA0/rs:fit/g:sm/q:90/h:600/w:593/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzNzMx/MS0xNTQzNTE4NjQ2/LTg3OTkuanBlZw.jpeg",
+        "https://i.discogs.com/XDc-q3x6Rg2JgrNT7egVmOSPtuQb0nXDnWUcNE1wLeo/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzNzMx/MS0xNTQzNTE4NjQ5/LTEyMTAuanBlZw.jpeg"
+      ],
+      "status": "available",
+      "listed_at": "2025-12-17T16:18:43-08:00"
     }
   ]
 }
