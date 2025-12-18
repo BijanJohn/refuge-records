@@ -10,7 +10,13 @@ export function getAvailableRecords(): Record[] {
     .map((item) => ({
       ...item,
       slug: generateSlug(item.artist, item.title, item.discogs_listing_id),
-    }));
+    }))
+    .sort((a, b) => {
+      // Sort by listed_at date, newest first
+      const dateA = a.listed_at || '';
+      const dateB = b.listed_at || '';
+      return dateB.localeCompare(dateA);
+    });
 }
 
 export function getRecordBySlug(slug: string): Record | undefined {
