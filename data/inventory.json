@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-01-13T23:12:08.546Z",
+  "lastSync": "2026-01-14T23:12:00.776Z",
   "seller": "jeremyslindsey",
   "items": [
     {
@@ -2355,8 +2355,10 @@
       "discogs_release_id": 562853,
       "title": "Funky Music Is The Thing",
       "artist": "Dynamic Corvettes",
+      "label": "Abet",
       "catalog_number": "Abet 9459",
       "year": 1975,
+      "format": "Vinyl",
       "price": 30,
       "currency": "USD",
       "condition": "Near Mint (NM or M-)",
@@ -2364,7 +2366,8 @@
       "comments": "Stored in plastic outer sleeve, and sleeve city inner. From personal collection &amp; vinyl looks unplayed. Company sleeve conservatively graded and looks nice (just a bit of ring wear, rub wear and wrinkling - minor and happy to provide pics)).",
       "discogs_url": "https://www.discogs.comhttps://www.discogs.com/sell/item/3178319720",
       "images": [
-        "https://i.discogs.com/rzLDsEfNdZhAJ7vxplv0A8FqjrsH0TJC7jlEpQQVF5Y/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2Mjg1/My0xMTMxODg4NDcz/LmpwZWc.jpeg"
+        "https://i.discogs.com/O8N67SIsTIdOWAaRIwjg3IjURYB_Faydz-BAuolV6bQ/rs:fit/g:sm/q:90/h:400/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2Mjg1/My0xMTMxODg4NDcz/LmpwZWc.jpeg",
+        "https://i.discogs.com/l_YRtXHN6SfB_sYoMS3pgrFE2BkEU0-22flXrwzRmqo/rs:fit/g:sm/q:90/h:400/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2Mjg1/My0xMTMxODg4NDgz/LmpwZWc.jpeg"
       ],
       "status": "available",
       "listed_at": "2024-07-21T13:07:30-07:00"
@@ -2991,30 +2994,6 @@
       "listed_at": "2025-05-12T08:23:18-07:00"
     },
     {
-      "discogs_listing_id": 3656246583,
-      "discogs_release_id": 33140880,
-      "title": "Diamond Jubilee",
-      "artist": "Cindy Lee",
-      "label": "W.25th",
-      "catalog_number": "W25-18",
-      "year": 2025,
-      "format": "Vinyl",
-      "price": 140,
-      "currency": "USD",
-      "condition": "Mint (M)",
-      "sleeve_condition": "Near Mint (NM or M-)",
-      "comments": "New, factory sealed LP stored in archival outer sleeve - Limited Edition Gold vinyl",
-      "discogs_url": "https://www.discogs.comhttps://www.discogs.com/sell/item/3656246583",
-      "images": [
-        "https://i.discogs.com/xCSz4SIKox8bzc5blgqhf60EGo5dRAlVlQoz_ncrajI/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMTQw/ODgwLTE3NDE2NDE0/NTEtMzAzNi5qcGVn.jpeg",
-        "https://i.discogs.com/yxneOMB0Rx3jtzwC7XlQmSqpyE06yyS55MYPXk_18fY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMTQw/ODgwLTE3NDA3Nzk2/MjQtNjAzNy5qcGVn.jpeg",
-        "https://i.discogs.com/C4HpysbeXh6GDiLbHra1wWafT8IhFjsRIRYepSi0vxM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMTQw/ODgwLTE3NDU2NDcx/MzYtMjQyMS5qcGVn.jpeg",
-        "https://i.discogs.com/5FUUxWzZTpxjlpGosHbsUFz89Yw8JlSiphDafO927bs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMTQw/ODgwLTE3NDU2NDcx/MzYtODEyNS5qcGVn.jpeg"
-      ],
-      "status": "available",
-      "listed_at": "2025-05-12T08:27:27-07:00"
-    },
-    {
       "discogs_listing_id": 3656248920,
       "discogs_release_id": 11471742,
       "title": "Con Todo El Mundo",
@@ -3222,6 +3201,30 @@
       ],
       "status": "available",
       "listed_at": "2025-12-17T16:18:43-08:00"
+    },
+    {
+      "discogs_listing_id": 3656246583,
+      "discogs_release_id": 33140880,
+      "title": "Diamond Jubilee",
+      "artist": "Cindy Lee",
+      "label": "W.25th",
+      "catalog_number": "W25-18",
+      "year": 2025,
+      "format": "Vinyl",
+      "price": 130,
+      "currency": "USD",
+      "condition": "Mint (M)",
+      "sleeve_condition": "Near Mint (NM or M-)",
+      "comments": "New, factory sealed LP stored in archival outer sleeve - Limited Edition Gold vinyl",
+      "discogs_url": "https://www.discogs.comhttps://www.discogs.com/sell/item/3656246583",
+      "images": [
+        "https://i.discogs.com/xCSz4SIKox8bzc5blgqhf60EGo5dRAlVlQoz_ncrajI/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMTQw/ODgwLTE3NDE2NDE0/NTEtMzAzNi5qcGVn.jpeg",
+        "https://i.discogs.com/yxneOMB0Rx3jtzwC7XlQmSqpyE06yyS55MYPXk_18fY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMTQw/ODgwLTE3NDA3Nzk2/MjQtNjAzNy5qcGVn.jpeg",
+        "https://i.discogs.com/C4HpysbeXh6GDiLbHra1wWafT8IhFjsRIRYepSi0vxM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMTQw/ODgwLTE3NDU2NDcx/MzYtMjQyMS5qcGVn.jpeg",
+        "https://i.discogs.com/5FUUxWzZTpxjlpGosHbsUFz89Yw8JlSiphDafO927bs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMTQw/ODgwLTE3NDU2NDcx/MzYtODEyNS5qcGVn.jpeg"
+      ],
+      "status": "available",
+      "listed_at": "2026-01-13T16:15:51-08:00"
     }
   ]
 }
