@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-02-26T23:16:59.138Z",
+  "lastSync": "2026-02-27T23:14:16.420Z",
   "seller": "jeremyslindsey",
   "items": [
     {
@@ -1373,27 +1373,6 @@
       ],
       "status": "available",
       "listed_at": "2024-07-12T12:47:08-07:00"
-    },
-    {
-      "discogs_listing_id": 3169442287,
-      "discogs_release_id": 8985590,
-      "title": "Street Parade Pt. I",
-      "artist": "Earl King",
-      "label": "Kansu Records",
-      "catalog_number": "1002",
-      "year": 1970,
-      "format": "Vinyl",
-      "price": 35,
-      "currency": "USD",
-      "condition": "Near Mint (NM or M-)",
-      "sleeve_condition": "Not Graded",
-      "comments": "Stored in plastic outer sleeve, and sleeve city inner. Dead stock purchased from the label Tipitini's (they found a box).",
-      "discogs_url": "https://www.discogs.comhttps://www.discogs.com/sell/item/3169442287",
-      "images": [
-        "https://i.discogs.com/v5cayCaF8hw5HXFV7LibS66lL5tadX1fKHuJWSomMOo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg5ODU1/OTAtMTQ3Mjc3OTIw/My01MTA1LmpwZWc.jpeg"
-      ],
-      "status": "available",
-      "listed_at": "2024-07-15T12:04:08-07:00"
     },
     {
       "discogs_listing_id": 3169444066,
@@ -2893,6 +2872,27 @@
       ],
       "status": "available",
       "listed_at": "2026-01-30T10:51:40-08:00"
+    },
+    {
+      "discogs_listing_id": 3169442287,
+      "discogs_release_id": 8985590,
+      "title": "Street Parade Pt. I",
+      "artist": "Earl King",
+      "label": "Kansu Records",
+      "catalog_number": "1002",
+      "year": 1970,
+      "format": "Vinyl",
+      "price": 28,
+      "currency": "USD",
+      "condition": "Near Mint (NM or M-)",
+      "sleeve_condition": "Not Graded",
+      "comments": "Stored in plastic outer sleeve, and sleeve city inner. Dead stock purchased from the label Tipitini's (they found a box).",
+      "discogs_url": "https://www.discogs.comhttps://www.discogs.com/sell/item/3169442287",
+      "images": [
+        "https://i.discogs.com/v5cayCaF8hw5HXFV7LibS66lL5tadX1fKHuJWSomMOo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg5ODU1/OTAtMTQ3Mjc3OTIw/My01MTA1LmpwZWc.jpeg"
+      ],
+      "status": "available",
+      "listed_at": "2026-02-27T11:38:17-08:00"
     }
   ]
 }
