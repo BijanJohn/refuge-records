@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-03-05T23:31:58.871Z",
+  "lastSync": "2026-03-06T23:15:19.845Z",
   "seller": "jeremyslindsey",
   "items": [
     {
@@ -1443,30 +1443,6 @@
       ],
       "status": "available",
       "listed_at": "2024-07-16T08:47:38-07:00"
-    },
-    {
-      "discogs_listing_id": 3170324395,
-      "discogs_release_id": 1673278,
-      "title": "Johnson&Jonson",
-      "artist": "Johnson&Jonson",
-      "label": "Tres Records",
-      "catalog_number": "TR396-051",
-      "year": 2008,
-      "format": "Vinyl",
-      "price": 74,
-      "currency": "USD",
-      "condition": "Mint (M)",
-      "sleeve_condition": "Near Mint (NM or M-)",
-      "comments": "New, factory sealed LP stored in an archival outer sleeve. Minor corner wear/crunch",
-      "discogs_url": "https://www.discogs.comhttps://www.discogs.com/sell/item/3170324395",
-      "images": [
-        "https://i.discogs.com/SyR6JI6Zl_XG7mepKq03b6xDmA6L5mYrgl5VI6CeefU/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NzMy/NzgtMTczMTAxMzAx/MS02ODE0LmpwZWc.jpeg",
-        "https://i.discogs.com/zipHsiFwlK9w8Q60DHmoaM44ObEjZCd0city1noCoho/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NzMy/NzgtMTczMTAxMzAx/Mi0yNTM2LmpwZWc.jpeg",
-        "https://i.discogs.com/1WRKK-pL1J_6MYAOTIHyZfGTGK5b5OmAjqRlDz0Dc_Q/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NzMy/NzgtMTczMTAxMzAx/My03MTg4LmpwZWc.jpeg",
-        "https://i.discogs.com/cHa9w5JpqcUM33D98lszMid5xp4ENiMtGh5Pt0wgxTs/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NzMy/NzgtMTczMTAxMzAx/My00NTA1LmpwZWc.jpeg"
-      ],
-      "status": "available",
-      "listed_at": "2024-07-16T08:49:41-07:00"
     },
     {
       "discogs_listing_id": 3170326363,
