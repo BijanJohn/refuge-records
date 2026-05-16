@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-05-15T23:27:54.288Z",
+  "lastSync": "2026-05-16T23:26:38.640Z",
   "seller": "jeremyslindsey",
   "items": [
     {
@@ -7,8 +7,10 @@
       "discogs_release_id": 9330085,
       "title": "Dr. John's Gumbo",
       "artist": "Dr. John",
-      "catalog_number": "AAPP 093, SD 7006",
+      "label": "Analogue Productions",
+      "catalog_number": "AAPP 093",
       "year": 2016,
+      "format": "Vinyl",
       "price": 65,
       "currency": "USD",
       "condition": "Mint (M)",
@@ -16,7 +18,10 @@
       "comments": "Stored in plastic outer sleeve, and mofi inner. Vinyl maybe played once. Sleeve doesn't have shrink, but very clean.",
       "discogs_url": "https://www.discogs.comhttps://www.discogs.com/sell/item/1981025648",
       "images": [
-        "https://i.discogs.com/1GDLMYVmbmj_x57JrAZaNZe5KQkJXK2Ooj9oNAdhLhU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzMzAw/ODUtMTQ3OTczMTk2/MS0zMTE2LmpwZWc.jpeg"
+        "https://i.discogs.com/Bz_T608gkxBmQj_IU4Dv-TIlwk9Ro4ScFRo_wAZ9F7U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzMzAw/ODUtMTQ3OTczMTk2/MS0zMTE2LmpwZWc.jpeg",
+        "https://i.discogs.com/PP_EUdeBT4oWtEIeDd65ZHUXX6XYLalRX2WOc2LnvII/rs:fit/g:sm/q:90/h:600/w:591/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzMzAw/ODUtMTYzMzYyNjg3/Ny05MjA3LmpwZWc.jpeg",
+        "https://i.discogs.com/-oDe1Q_A4bHZ9C-uy43JN1AxLpiLFji7Bdtr8vmpnpY/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzMzAw/ODUtMTYzMzYyNjg3/OC0xNjg4LmpwZWc.jpeg",
+        "https://i.discogs.com/IpwvCAVVPMIagRDoWPhzeq-7dsGDoOLEUCA_XXUwOpE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzMzAw/ODUtMTQ3OTczMTk2/Mi01ODYzLmpwZWc.jpeg"
       ],
       "status": "available",
       "listed_at": "2022-10-04T08:48:07-07:00"
