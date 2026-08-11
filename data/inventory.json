@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-08-10T23:44:06.133Z",
+  "lastSync": "2026-08-11T23:52:56.333Z",
   "seller": "jeremyslindsey",
   "items": [
     {
@@ -2633,6 +2633,28 @@
       ],
       "status": "available",
       "listed_at": "2026-08-07T08:03:07-07:00"
+    },
+    {
+      "discogs_listing_id": 4312012761,
+      "discogs_release_id": 37066404,
+      "title": "Secret Admirer",
+      "artist": "Cafe Canela",
+      "label": "Cafe Canela Records",
+      "catalog_number": "none",
+      "year": 2025,
+      "format": "Vinyl",
+      "price": 60,
+      "currency": "USD",
+      "condition": "Near Mint (NM or M-)",
+      "sleeve_condition": "Near Mint (NM or M-)",
+      "comments": "Never played and stored in plastic outer sleeve, and archival inner. Comes with Boro sticker and postcard. Clear Magenta vinyl exclusive to Boro Records in NJ. Limited to #100 copies",
+      "discogs_url": "https://www.discogs.comhttps://www.discogs.com/sell/item/4312012761",
+      "images": [
+        "https://i.discogs.com/BbpuN-aCmt2ZDC1pA8fwwMEdaAQyLA79keg0eGny1m0/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MDY2/NDA0LTE3NzYxODgx/MzQtMjgzNS5qcGVn.jpeg",
+        "https://i.discogs.com/eLQLhkGnQ7RJxvElZLPlAHEUcP5tDNFwzUjf1rnB55E/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MDY2/NDA0LTE3NzYxODgx/MzYtNzQzOC5qcGVn.jpeg"
+      ],
+      "status": "available",
+      "listed_at": "2026-08-11T15:44:52-07:00"
     }
   ]
 }
