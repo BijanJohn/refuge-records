@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-08-11T23:52:56.333Z",
+  "lastSync": "2026-08-12T23:52:39.251Z",
   "seller": "jeremyslindsey",
   "items": [
     {
@@ -2655,6 +2655,28 @@
       ],
       "status": "available",
       "listed_at": "2026-08-11T15:44:52-07:00"
+    },
+    {
+      "discogs_listing_id": 4312974684,
+      "discogs_release_id": 33530412,
+      "title": "Сэлэнгэ \"Selenge\"",
+      "artist": "Céline Dessberg",
+      "label": "That's Love Records",
+      "catalog_number": "TLR-002",
+      "year": 2025,
+      "format": "Vinyl",
+      "price": 125,
+      "currency": "USD",
+      "condition": "Mint (M)",
+      "sleeve_condition": "Near Mint (NM or M-)",
+      "comments": "Never played and stored in plastic outer sleeve, and sleeve city inner. Limited Red edition",
+      "discogs_url": "https://www.discogs.comhttps://www.discogs.com/sell/item/4312974684",
+      "images": [
+        "https://i.discogs.com/eAKzWdOU-HaDvbgI6fuKXWcIj7e1adBTqlC5HsX9j5U/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNTMw/NDEyLTE3NDM1MzIx/NzQtMjkwOC5qcGVn.jpeg",
+        "https://i.discogs.com/RUgAjS_0PCYkT7sEqPd-qfIBMz4H01nU7y2KldyyVJ4/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNTMw/NDEyLTE3NDM1MzIx/NzQtODkyNS5qcGVn.jpeg"
+      ],
+      "status": "available",
+      "listed_at": "2026-08-12T09:15:05-07:00"
     }
   ]
 }
