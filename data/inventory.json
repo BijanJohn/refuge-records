@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-08-12T23:52:39.251Z",
+  "lastSync": "2026-08-13T23:52:38.991Z",
   "seller": "jeremyslindsey",
   "items": [
     {
@@ -2677,6 +2677,28 @@
       ],
       "status": "available",
       "listed_at": "2026-08-12T09:15:05-07:00"
+    },
+    {
+      "discogs_listing_id": 4314743958,
+      "discogs_release_id": 10464996,
+      "title": "Let Your Light Shine",
+      "artist": "Willie Dale",
+      "label": "Athens Of The North Record Company",
+      "catalog_number": "ATH042",
+      "year": 2017,
+      "format": "Vinyl",
+      "price": 60,
+      "currency": "USD",
+      "condition": "Near Mint (NM or M-)",
+      "sleeve_condition": "Generic",
+      "comments": "Never played and stored in plastic outer sleeve, and archival inner. Small amount of label fade on side A (happy to provide pics)",
+      "discogs_url": "https://www.discogs.comhttps://www.discogs.com/sell/item/4314743958",
+      "images": [
+        "https://i.discogs.com/PVai_RqGciAaUW3QYzAKYQ3TcY1tC1tomRUyxjQ86No/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNDY0/OTk2LTE0OTc5ODE2/NDEtNDk1Mi5qcGVn.jpeg",
+        "https://i.discogs.com/7Ahz2X-PmH78vRN2W0lfPfdw_QJUSfVcAEg6W-asG4g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNDY0/OTk2LTE0OTc5ODE2/NDctMjYwNi5qcGVn.jpeg"
+      ],
+      "status": "available",
+      "listed_at": "2026-08-13T06:23:10-07:00"
     }
   ]
 }
