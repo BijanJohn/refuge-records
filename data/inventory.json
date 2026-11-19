@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-11-18T04:06:08.675Z",
+  "lastSync": "2026-11-19T04:03:27.155Z",
   "seller": "jeremyslindsey",
   "items": [
     {
@@ -554,6 +554,28 @@
       ],
       "status": "available",
       "listed_at": "2026-08-13T06:23:10-07:00"
+    },
+    {
+      "discogs_listing_id": 4495993760,
+      "discogs_release_id": 38148105,
+      "title": "Secret Admirer",
+      "artist": "Cafe Canela",
+      "label": "Cafe Canela Records",
+      "catalog_number": "none",
+      "year": 2025,
+      "format": "Vinyl",
+      "price": 70,
+      "currency": "USD",
+      "condition": "Mint (M)",
+      "sleeve_condition": "Generic",
+      "comments": "Never played item stored in archival outer and inner sleeve",
+      "discogs_url": "https://www.discogs.comhttps://www.discogs.com/sell/item/4495993760",
+      "images": [
+        "https://i.discogs.com/DqbZb-scaEHraP0u3phQBaWFsk6XCn41EutObUlKwUw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4MTQ4/MTA1LTE3ODY3NDM4/NDktNDIwMy5qcGVn.jpeg",
+        "https://i.discogs.com/As5aESsmnpD9mW67Uv2eHxHbRItJTwWNR3nhBe2bE10/rs:fit/g:sm/q:90/h:549/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4MTQ4/MTA1LTE3ODY3NDM4/NDktNDE5Ni5qcGVn.jpeg"
+      ],
+      "status": "available",
+      "listed_at": "2026-11-18T13:37:11-08:00"
     }
   ]
 }
