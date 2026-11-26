@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-11-25T05:20:43.523Z",
+  "lastSync": "2026-11-26T04:52:03.235Z",
   "seller": "jeremyslindsey",
   "items": [
     {
@@ -576,6 +576,27 @@
       ],
       "status": "available",
       "listed_at": "2026-11-18T13:37:11-08:00"
+    },
+    {
+      "discogs_listing_id": 4522287075,
+      "discogs_release_id": 33177642,
+      "title": "Whatever Makes You Happy / Last Forever",
+      "artist": "Patchwork Inc. Feat. Taylor Williams (6) / Wyatt Waddell",
+      "label": "Colemine Records",
+      "catalog_number": "CLMN-247",
+      "year": 2025,
+      "format": "Vinyl",
+      "price": 12,
+      "currency": "USD",
+      "condition": "Mint (M)",
+      "sleeve_condition": "Near Mint (NM or M-)",
+      "comments": "Never played and stored in archival outer and inner sleeves. ",
+      "discogs_url": "https://www.discogs.comhttps://www.discogs.com/sell/item/4522287075",
+      "images": [
+        "https://i.discogs.com/57yVzp6tiOEmXxu1OD7Q7Wkx2GERscZoj16FgpTe3d0/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMTc3/NjQyLTE3NDEyODg1/MTUtNzY4MC5qcGVn.jpeg"
+      ],
+      "status": "available",
+      "listed_at": "2026-11-25T15:01:35-08:00"
     }
   ]
 }
